@@ -9,7 +9,7 @@ public class CalculadoraIMC {
         double peso = Double.parseDouble(JOptionPane.showInputDialog("Digite o peso em kg:"));
         double altura = Double.parseDouble(JOptionPane.showInputDialog("Digite a altura em cm:"));
 
-        // Altura para metros
+        // Calcular medida de centimentros para metros.
         altura /= 100; // Convertendo para metros
 
         // Cálculo do IMC
